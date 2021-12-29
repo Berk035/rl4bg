@@ -19,10 +19,10 @@ Note you will need to perform a normal from-scratch run before any transfer runs
 """
 
 t_start = time.time()
-base_name = 'tst'
-save_path = '/save/path'  # where the outputs will be saved
+base_name = 'rl4bg'
+save_path = '/home/berk/PycharmProjects/rl4bg/results'  # where the outputs will be saved
 full_path = '{}/{}'.format(save_path, base_name)
-source_path = '/source/path'  # the path to the location of the folder 'bgp' which contains the source code
+source_path = '/home/berk/PycharmProjects/rl4bg'  # the path to the location of the folder 'bgp' which contains the source code
 print(base_name)
 
 # General utility parameters
